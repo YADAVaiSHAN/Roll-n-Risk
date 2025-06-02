@@ -2,6 +2,12 @@
 
 Roll 'n Risk is a two-player dice game built with HTML, CSS, and JavaScript. It blends chance and strategy — roll high, avoid 1s, and be the first to reach 100 points!
 
+---
+
+> 🔧 CSS Responsiveness Note
+⚠️ Note: This game's CSS layout is currently optimized for desktop and larger PC monitors. It may not display correctly on mobile devices or smaller screens due to limited responsive design. Mobile support will be added in future updates.
+
+
 ## 🚀 How to Play
 - Players take turns rolling the dice.
 - Rolling adds to your current score.
