@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width", initial-scale="1.0" />
+    <meta http-equiv="X-UA-COMPATIBLE" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Roll 'n Risk</title>
+</head>                                        
+<body>
+    <header>
+        <!--<h1>ROLL THE DICE & PLAY THE GAME!</h1>-->
+        <h1 class="game-title">
+            🎲 Roll  <span class="red">'n</span>  Risk<br>
+            <span class="tagline">
+              <span class="highlight">R</span>oll smart. 
+              <span class="highlight">H</span>old wisely. 
+              <span class="highlight">W</span>in big!
+            </span>  
+          </h1>
+          
+        <button class="btn help"> HOW TO PLAY?</button>
+    </header>
+    <div class="closeHelp hidden">
+        <button class="closeButton">&#10006</button>
+        <h2 class="helpH" style="text-align: center;"><b>🎰<u>Roll 'n Risk!</u>🎮</b></h2>
+        <p class="helpP"> <span class="helpS">Roll 'n Risk</span> is a thrilling two-player dice game that blends strategy with chance!<br>
+            <li>Players take turns to <span class="helpS">roll a 🎲 dice</span> as many times as they want during their turn</li>
+            <li>Each dice roll adds its value to the player’s <span class="helpS"><strong>current score 🎯</strong></span></li> 
+            <li>If a player rolls a <span class="helpS"><strong>1</strong></span> their current score is lost and it becomes the next player’s turn.</li> <br>
+            <li>To avoid losing points, a player can click the <span class="helpS"><strong>“Hold”</strong></span>📥 button to save their current score into their total score</li>
+            <li>The first player to reach the target score <span class="helpS">(e.g., 100 points)</span> wins the game!</li>  
+            <br>
+            <span class="helpG"><em>Tip: Take calculated risks <b>—</b> roll wisely, and know when to hold!</em></span>
+      </p>
+      </div>
+      <div class="overlay hidden"></div>
+      <!--<marquee behavior="scroll" direction="left" scrollamount="6"> 🎮 Welcome to Roll and dice game! made by me ISHAN YADAV 🙋🏻‍♂️, ENJOY THE GAME ⚡</marquee>-->
+      <div class="marquee-container">
+        <p class="marquee-text">🎮 Welcome to Roll and dice game! made by me ISHAN YADAV 🙋🏻‍♂️, ENJOY THE GAME ⚡</p>
+      </div>
+
+    <main>
+        <section class="player player--0 player--active">
+            <h2 class="name" id="name--0">Player 1</h2>
+            <p class="score" id="score--0">43</p>
+            <div class="current">
+                <p class="current-label">Current</p>
+                <p class="current-score" id="current--0">0</p>
+            </div>
+        </section>
+        <section class="player player--1">
+            <h2 class="name" id="name--1">Player 2</h2>
+            <p class="score" id="score--1">24</p>
+            <div class="current">
+                <p class="current-label">Current</p>
+                <p class="current-score" id="current--1">0</p>
+            </div>
+        </section>
+
+        <img src="dice-5.png" alt="Rolling dice" class="dice" />
+        <div class="buttons">
+        <button class="btn btn--new">🔁 NEW GAME!</button>
+        <button class="btn btn--roll">🎲 ROLL DICE!</button>
+        <button class="btn btn--hold">📥 HOLD! </button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
