@@ -14,6 +14,9 @@ Roll 'n Risk is a two-player dice game built with HTML, CSS, and JavaScript. It 
 - Rolling a 1 resets your current score and ends your turn.
 - Click **Hold** to save your score and switch turns.
 - First to 100 wins!
+- This is how it looks 🔻 
+https://github.com/user-attachments/assets/af58e134-7f65-4536-bff9-44d94f1381a8
+
 
 🌟 Features:
 - 🎯 Simple yet addictive gameplay
