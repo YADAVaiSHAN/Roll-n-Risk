@@ -7,6 +7,8 @@ Roll 'n Risk is a two-player dice game built with HTML, CSS, and JavaScript. It 
 > 🔧 CSS Responsiveness Note
 ⚠️ Note: This game's CSS layout is currently optimized for desktop and larger PC monitors. It may not display correctly on mobile devices or smaller screens due to limited responsive design. Mobile support will be added in future updates.
 
+🔗 Play now: https://your-netlify-link.netlify.app
+
 
 ## 🚀 How to Play
 - Players take turns rolling the dice.
